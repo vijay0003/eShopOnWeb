@@ -11,7 +11,6 @@
   <ItemGroup>
     <Content Remove="compilerconfig.json" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Ardalis.ListStartupServices" />
     <PackageReference Include="Ardalis.Specification" />
@@ -22,7 +21,6 @@
     <PackageReference Include="BuildBundlerMinifier" Condition="'$(Configuration)'=='Release'" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
-    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <PackageReference Include="Microsoft.Web.LibraryManager.Build" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
